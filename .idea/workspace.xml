@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32f2f085-3892-4bb9-9416-01bb1ac137c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="32f2f085-3892-4bb9-9416-01bb1ac137c6" name="Changes" comment="cnp">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Akash-Dhembare&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Akash-Dhembare/ATB7xAPIAutomationNew.git&quot;,
+    &quot;accountId&quot;: &quot;bd45dffd-11ef-4386-829d-caca17d671fd&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2mHyHCaXhBzMZEGUhXaYJHTHppi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -39,15 +48,41 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BDDStyleGet.executor": "Run",
+    "Application.BDDStylePOST.executor": "Run",
+    "Application.BuilderPatternDesignPatternJava.executor": "Run",
+    "Application.NoDesignPattern.executor": "Run",
+    "Application.NonBDDStyle.executor": "Run",
+    "Application.NonBDDStylePOST.executor": "Run",
     "Application.Test001.executor": "Run",
     "Application.Test002.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.ATB7xAPIAutomationNew [install].executor": "Run",
+    "Maven.ATB7xAPIAutomationNew [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.BDDStylePOST.test_post.executor": "Run",
+    "TestNG.C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew/testng_POST.xml.executor": "Run",
+    "TestNG.C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew/testng_PUT.xml.executor": "Run",
+    "TestNG.NonBDDPUTStyle.test_put_positive_tc.executor": "Run",
+    "TestNG.NonBDDStylePOST.test_non_bbd_post.executor": "Run",
+    "TestNG.Test001.test_get.executor": "Run",
+    "TestNG.Test002.executor": "Run",
+    "TestNG.Test003.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test002">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADHEMBAR\IdeaProjects\ATB7xAPIAutomationNew" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.akash.dhembare2000" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew/testng.xml">
     <configuration name="Test001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akash.dhembare2000.Test001" />
       <module name="ATB7xAPIAutomationNew" />
@@ -74,8 +109,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew/testng_POST.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB7xAPIAutomationNew" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_POST.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew/testng_PUT.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB7xAPIAutomationNew" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_PUT.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB7xAPIAutomationNew" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew/testng_PUT.xml" />
+        <item itemvalue="TestNG.C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew/testng_POST.xml" />
         <item itemvalue="Application.Test002" />
         <item itemvalue="Application.Test001" />
       </list>
@@ -90,6 +158,36 @@
       <option name="presentableId" value="Default" />
       <updated>1726747705583</updated>
     </task>
+    <task id="LOCAL-00001" summary="cnp">
+      <option name="closed" value="true" />
+      <created>1726748249480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726748249480</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cnp">
+      <option name="closed" value="true" />
+      <created>1726748295218</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726748295218</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cnp">
+      <option name="closed" value="true" />
+      <created>1726748338653</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726748338653</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="cnp" />
+    <option name="LAST_COMMIT_MESSAGE" value="cnp" />
   </component>
 </project>
