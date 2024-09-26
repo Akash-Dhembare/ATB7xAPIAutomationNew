@@ -28,10 +28,7 @@
                     <include name="demo5"/>
                 </methods>
             </class>
-            <class name="com.akash.dhembare2000.ex_15092024.CRUD.testng.Test003">
-                <methods>
-                    <include name="demo5"/>
-                </methods>
+            <class name="com.akash.dhembare2000.ex_21092024.testngexamples.TestNG001">
             </class>
         </classes>
     </test>
