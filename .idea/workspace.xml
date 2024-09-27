@@ -7,7 +7,6 @@
     <list default="true" id="32f2f085-3892-4bb9-9416-01bb1ac137c6" name="Changes" comment="cnp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +70,8 @@
     "TestNG.C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew/testng_groups_qa.xml.executor": "Run",
     "TestNG.C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew/testng_parameters_chrome.xml.executor": "Run",
     "TestNG.C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew/testng_parameters_firefox.xml.executor": "Run",
+    "TestNG.GSONDeSerialization.executor": "Run",
+    "TestNG.GSONSerialization.executor": "Run",
     "TestNG.NonBDDPUTStyle.test_put_positive_tc.executor": "Run",
     "TestNG.NonBDDStylePOST.test_non_bbd_post.executor": "Run",
     "TestNG.Test001.test_get.executor": "Run",
@@ -90,6 +91,8 @@
     "TestNG.TestCaseIntegration.test_update_request_put.executor": "Run",
     "TestNG.TestNG001.executor": "Run",
     "TestNG.TestNG003.executor": "Run",
+    "TestNG.Verification001.executor": "Run",
+    "TestNG.Verification002.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew",
@@ -107,27 +110,61 @@
       <recent name="com.akash.dhembare2000" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test012_TestNG.hardAssertExample">
-    <configuration name="C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew/src/test/java/com/akash/dhembare2000/ex_21092024/testngexamples/CRUD/testng_crud.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.POJO002">
+    <configuration name="JSONPath02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akash.dhembare2000.ex_22092024.JSONPath.JSONPath02" />
       <module name="ATB7xAPIAutomationNew" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/akash/dhembare2000/ex_21092024/testngexamples/CRUD/testng_crud.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akash.dhembare2000.ex_22092024.JSONPath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="POJO001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akash.dhembare2000.ex_22092024.POJOS.POJO001" />
+      <module name="ATB7xAPIAutomationNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akash.dhembare2000.ex_22092024.POJOS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSONPath01.test_post" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB7xAPIAutomationNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akash.dhembare2000.ex_22092024.JSONPath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.akash.dhembare2000.ex_22092024.JSONPath" />
+      <option name="MAIN_CLASS_NAME" value="com.akash.dhembare2000.ex_22092024.JSONPath.JSONPath01" />
+      <option name="METHOD_NAME" value="test_post" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test011_Assertions" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="POJO002" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB7xAPIAutomationNew" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akash.dhembare2000.ex_21092024.testngexamples.Assertions.*" />
+          <option name="PATTERN" value="com.akash.dhembare2000.ex_22092024.POJOS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.akash.dhembare2000.ex_21092024.testngexamples.Assertions" />
-      <option name="MAIN_CLASS_NAME" value="com.akash.dhembare2000.ex_21092024.testngexamples.Assertions.Test011_Assertions" />
+      <option name="PACKAGE_NAME" value="com.akash.dhembare2000.ex_22092024.POJOS" />
+      <option name="MAIN_CLASS_NAME" value="com.akash.dhembare2000.ex_22092024.POJOS.POJO002" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -135,52 +172,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test012_TestNG.hardAssertExample" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WithSer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB7xAPIAutomationNew" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akash.dhembare2000.ex_21092024.testngexamples.Assertions.*" />
+          <option name="PATTERN" value="com.akash.dhembare2000.ex_22092024.gson.Serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.akash.dhembare2000.ex_21092024.testngexamples.Assertions" />
-      <option name="MAIN_CLASS_NAME" value="com.akash.dhembare2000.ex_21092024.testngexamples.Assertions.Test012_TestNG" />
-      <option name="METHOD_NAME" value="hardAssertExample" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test012_TestNG.softAssertExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB7xAPIAutomationNew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.akash.dhembare2000.ex_21092024.testngexamples.Assertions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.akash.dhembare2000.ex_21092024.testngexamples.Assertions" />
-      <option name="MAIN_CLASS_NAME" value="com.akash.dhembare2000.ex_21092024.testngexamples.Assertions.Test012_TestNG" />
-      <option name="METHOD_NAME" value="softAssertExample" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCaseIntegration" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB7xAPIAutomationNew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.akash.dhembare2000.ex_21092024.testngexamples.CRUD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.akash.dhembare2000.ex_21092024.testngexamples.CRUD" />
-      <option name="MAIN_CLASS_NAME" value="com.akash.dhembare2000.ex_21092024.testngexamples.CRUD.TestCaseIntegration" />
+      <option name="PACKAGE_NAME" value="com.akash.dhembare2000.ex_22092024.gson.Serialization" />
+      <option name="MAIN_CLASS_NAME" value="com.akash.dhembare2000.ex_22092024.gson.Serialization.WithSer" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -190,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test012_TestNG.hardAssertExample" />
-        <item itemvalue="TestNG.Test012_TestNG.softAssertExample" />
-        <item itemvalue="TestNG.Test011_Assertions" />
-        <item itemvalue="TestNG.C:/Users/ADHEMBAR/IdeaProjects/ATB7xAPIAutomationNew/src/test/java/com/akash/dhembare2000/ex_21092024/testngexamples/CRUD/testng_crud.xml" />
-        <item itemvalue="TestNG.TestCaseIntegration" />
+        <item itemvalue="TestNG.POJO002" />
+        <item itemvalue="Application.POJO001" />
+        <item itemvalue="Application.JSONPath02" />
+        <item itemvalue="TestNG.JSONPath01.test_post" />
+        <item itemvalue="TestNG.WithSer" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726852270834</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cnp">
+      <option name="closed" value="true" />
+      <created>1727336728514</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727336728514</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
